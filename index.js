@@ -3,7 +3,7 @@ const input = "Chinelo";
 
 function verifyString(string) {
   if (typeof string !== "string") {
-    console.log("Informe apenas valores que sejam string")
+    console.log("Informe apenas valores que sejam string");
   }
 
   let quantity = 0;
