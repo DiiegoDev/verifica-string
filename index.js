@@ -1,5 +1,5 @@
 // String de entrada
-const input = "Chinelo";
+const input = "Chineloa";
 
 function verifyString(string) {
   if (typeof string !== "string") {
@@ -17,7 +17,7 @@ function verifyString(string) {
   if (quantity === 0) {
     console.log(`A palavra ${string} não possui letra a`);
   } else {
-    console.log(`A palavra ${string} possui ${letraA} letras a`);
+    console.log(`A palavra ${string} possui ${quantity} letras a`);
   }
 
 }
