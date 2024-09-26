@@ -1,5 +1,5 @@
 // String de entrada
-const input = "Chineloa";
+const input = "Amora";
 
 function verifyString(string) {
   if (typeof string !== "string") {
